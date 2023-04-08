@@ -1,0 +1,165 @@
+/* Global styles */
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+    /* Header styles */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul {
+      display: block;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    /* Main styles */
+    main {
+      padding: 10px;
+    }
+    
+    section li {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 252, 252);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Main styles */
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: ;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  section h2 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f3eef0;
+  }
+  
+  section p {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(10, 9, 9);
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  section h3 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid rgb(255, 252, 252);
+    color: #ffffff;
+  }
+  
+  img {
+    height: 700px;
+    width: 700px;
+  }
+
+  
